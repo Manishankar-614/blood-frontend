@@ -1,6 +1,6 @@
 import React from 'react';
 
-function donorlist({ donors, setEditingDonor, updateAvailability, deleteDonor }) {
+function DonorList({ donors, setEditingDonor, updateAvailability, deleteDonor }) {
   if (!donors.length) return <p className="text-center">No donors found.</p>;
 
   return (
@@ -48,4 +48,4 @@ function donorlist({ donors, setEditingDonor, updateAvailability, deleteDonor })
   );
 }
 
-export default donorlist;
+export default DonorList;
