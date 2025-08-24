@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function donorForm({ addDonor, editingDonor, updateDonor }) {
+function donorform({ addDonor, editingDonor, updateDonor }) {
   const [form, setForm] = useState({
     name: '',
     bloodGroup: '',
@@ -73,4 +73,4 @@ function donorForm({ addDonor, editingDonor, updateDonor }) {
   );
 }
 
-export default donorForm;
+export default donoform;

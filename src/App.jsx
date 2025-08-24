@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import donorForm from './components/DonorForm.jsx';
-import donorList from './components/DonorList.jsx';
+import donoform from './components/DonorForm.jsx';
+import donorlist from './components/DonorList.jsx';
 import axios from 'axios';
 import './App.css';
 
