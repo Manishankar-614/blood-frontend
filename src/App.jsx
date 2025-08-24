@@ -4,7 +4,8 @@ import DonorForm from './components/DonorForm';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api/donors';
+// const API_URL = 'https://blood-backend-3d00.onrender.com';
+const API_URL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [donors, setDonors] = useState([]);
